@@ -6,7 +6,7 @@ dist: trusty
 
 addons:
   sonarqube:
-    organization: "usi"
+    organization: "ilredeitopi"
     token:
       secure: "c209fa9b995ec14ab100e9f0b95a962e158da1c5"
 
