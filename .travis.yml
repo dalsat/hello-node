@@ -1,10 +1,11 @@
 language: node_js
 node_js:
   - "7"
-sonarqube:
-  organization: "your_organization_key"
-  token:
-    secure: "c209fa9b995ec14ab100e9f0b95a962e158da1c5"
+addons:
+  sonarqube:
+    organization: "your_organization_key"
+    token:
+      secure: "c209fa9b995ec14ab100e9f0b95a962e158da1c5"
 script:
   - sonar-scanner
 cache:
