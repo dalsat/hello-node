@@ -4,16 +4,17 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"dummy OK\" && exit 0"
+    "start": "node app.js",
+    "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ilredeitopi/hello-node.git"
-  },
+  "repository": "git+https://github.com/ilredeitopi/hello-node.git",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ilredeitopi/hello-node/issues"
   },
-  "homepage": "https://github.com/ilredeitopi/hello-node#readme"
+  "homepage": "https://github.com/ilredeitopi/hello-node#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
 }
